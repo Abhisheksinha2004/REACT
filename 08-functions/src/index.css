@@ -14,3 +14,18 @@ input{
   margin:10px;
   padding:10px 20px;
 }
+.page1{
+  height:100vh;
+  width:100%;
+  background-color:crimson;
+}
+.page2{
+  height:100vh;
+  width:100%;
+  background-color:yellow;
+}
+.page3{
+  height:100vh;
+  width:100%;
+  background-color:green;
+}
