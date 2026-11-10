@@ -1,0 +1,31 @@
+import React from 'react'
+import { useEffect } from 'react'
+import { useState } from 'react'
+
+const App = () => {
+  const [num, setNum] = useState(0)
+  const [num2, setNum2] = useState(100)
+
+useEffect(function(){
+  console.log("use effect is running....");
+},[num2])
+
+
+  return (
+    <div>
+      <h1>num {num}</h1>
+      <h1>num2 {num2}</h1>
+      <button 
+      onClick={()=>{
+        setNum(num+1);
+      }}
+      onDoubleClick={()=>{
+        setNum2(num2+1);
+      }}
+      >Click</button>
+      
+    </div>
+  )
+}
+
+export default App
