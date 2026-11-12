@@ -1,0 +1,6 @@
+BrowserRouter is a declarative Router using the bowser History API for client slide routing
+
+ex---
+CodingSchool.com=/ -> for main page
+CodingSchool.com/courses=/courses
+CodingSchool.com/about=/about
